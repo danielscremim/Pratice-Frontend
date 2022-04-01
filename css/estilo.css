@@ -229,6 +229,10 @@ textarea{
     border-radius: 50%;
     overflow: hidden;
 }
+/*
+Lembrar que display none faz com que leitores não sejam lidos por navegadores.
+o mesmo vale para visibility: hidden
+*/
 
 .recent-works-card img{
     border-radius: 10px;
