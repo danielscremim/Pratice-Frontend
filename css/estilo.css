@@ -162,8 +162,8 @@ textarea{
     text-align: left;
 }
 /*
+HTML
 Lembrar sempre do TD, TH, TR podendo utilizar também seletores filhos e TBODY,THEADER, TFOOT
-
 
 Tag	Description
 <table>	Defines a table
@@ -180,6 +180,17 @@ Tag	Description
 Peguei do W3 Schools
 
 https://www.w3schools.com/html/html_tables.asp
+
+CSS
+#id	#firstname	Selects the element with id="firstname"
+.class	.intro	Selects all elements with class="intro"
+element.class	p.intro	Selects only <p> elements with class="intro"
+*	*	Selects all elements
+element	p	Selects all <p> elements
+element,element,..	div, p	Selects all <div> elements and all <p> elements
+
+https://www.w3schools.com/css/css_selectors.asp
+
 */
 .table td{
     padding: .75em;
